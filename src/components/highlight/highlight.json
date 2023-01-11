@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_highlight_highlights",
+  "info": {
+    "displayName": "highlight",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "default": "Description"
+    },
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "default": "Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Netus et malesuada fames ac turpis egestas integer eget. A diam maecenas sed enim ut sem viverra aliquet eget. Vel fringilla est ullamcorper eget nulla facilisi etiam. Velit egestas dui id ornare arcu odio ut. Felis donec et odio pellentesque diam volutpat commodo sed egestas. Auctor eu augue ut lectus arcu bibendum at varius. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices.Aenean euismod elementum nisi quis eleifend. Vitae purus faucibus ornare suspendisse sed nisi lacus.-Proin fermentum leo vel orci porta non pulvinar-Diam phasellus vestibulum-Quisque egestas diam in arcu cursus"
+    }
+  }
+}

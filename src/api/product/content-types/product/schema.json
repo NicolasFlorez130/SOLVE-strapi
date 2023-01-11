@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "type": "float",
+      "required": true
+    },
+    "description_small": {
+      "type": "text",
+      "required": true,
+      "default": "Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Netus et malesuada fames ac turpis egestas integer eget. A diam maecenas sed enim ut sem viverra aliquet eget."
+    },
+    "description_detailed": {
+      "type": "component",
+      "repeatable": false,
+      "component": "highlight.highlight"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_images_images",
+  "info": {
+    "displayName": "images",
+    "icon": "circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagensita": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

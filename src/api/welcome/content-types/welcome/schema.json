@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "welcomes",
+  "info": {
+    "singularName": "welcome",
+    "pluralName": "welcomes",
+    "displayName": "welcome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "buble": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "SØLVE"
+    }
+  }
+}
